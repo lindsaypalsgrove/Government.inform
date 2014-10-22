@@ -1,0 +1,1779 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x1b6490" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x8cf5020" />
+  <item nodeId="node-0x1b6490">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Do you know your U.S. Government History? You&apos;re on a school field trip to our nation&apos;s historical cities. You need to talk to the important people in history in which they will give you important documents to win the game!
+
+Government Tour
+An Interactive Fiction by Lindsay Palsgrove
+Release 1 / Serial number 141022 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+
+Independence Hall
+This is the centerpiece of Independence National Historical Park in Philadelphia, Pennsylvania. It is known primarily as the location where both the Declaration of Independence and the United States Constitution were debated and adopted. Also North is Philadelphia
+
+You can see wooden door, Phil, Barack Obama and Thomas Jefferson here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="52">NO</temporary>
+    <children>
+      <child nodeId="node-0x1b96c0" />
+      <child nodeId="node-0x1b9650" />
+      <child nodeId="node-0x1b8770" />
+      <child nodeId="node-0x8c74e70" />
+      <child nodeId="node-0x1b8380" />
+      <child nodeId="node-0x1b7500" />
+      <child nodeId="node-0x1b7490" />
+      <child nodeId="node-0x1b7cf0" />
+      <child nodeId="node-0x1b72d0" />
+      <child nodeId="node-0x1b7260" />
+      <child nodeId="node-0x1b7110" />
+      <child nodeId="node-0x1b65a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b65a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6a70" />
+      <child nodeId="node-0x1b6b30" />
+      <child nodeId="node-0x1b6610" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6610">
+    <command xml:space="preserve">talk to thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b66c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b66c0">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6720" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6720">
+    <command xml:space="preserve">take declaration of independence</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6790" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6790">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6880" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6880">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b68d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b68d0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Independence Hall
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6920" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6920">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Independence Hall
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6990" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6990">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Independence Hall
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6a00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b6b30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Philadelphia Convention
+You can see Wooden door and Bill of Rights here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6820" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6820">
+    <command xml:space="preserve">take to thomas</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6ba0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Independence Hall
+The centerpiece of Independence National Historical Park in Philadelphia, Pennsylvania. It is known primarily as the location where both the Declaration of Independence and the United States Constitution were debated and adopted.
+
+You can see Wooden door, Phil, Barack Obama and Thomas Jefferson here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6c10">
+    <command xml:space="preserve">talk to thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6c80">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6cf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6d60">
+    <command xml:space="preserve">take declaration of independence</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6dd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b6a70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b70a0" />
+      <child nodeId="node-0x1b6ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6ac0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6fc0">
+    <command xml:space="preserve">xme</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7030" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7030">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="93">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b70a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b7110">
+    <command xml:space="preserve">tak to Barack Obama</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7180" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7180">
+    <command xml:space="preserve">talk to Barack Obama</command>
+    <result xml:space="preserve">I am the President of the United States! Why are you talking to me?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b71f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b71f0">
+    <command xml:space="preserve">talk to Thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence , and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b7260">
+    <command xml:space="preserve">talk to Barack</command>
+    <result xml:space="preserve">I am the President of the United States! Why are you talking to me?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b72d0">
+    <command xml:space="preserve">talk to thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7340" />
+      <child nodeId="node-0x1b7900" />
+      <child nodeId="node-0x2dfe70" />
+    </children>
+  </item>
+  <item nodeId="node-0x2dfe70">
+    <command xml:space="preserve">ask thomas about declaration</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x8c7fe10" />
+    </children>
+  </item>
+  <item nodeId="node-0x8c7fe10">
+    <command xml:space="preserve">ask thomas about independence</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x118f49b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x118f49b0">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x1182f390" />
+    </children>
+  </item>
+  <item nodeId="node-0x1182f390">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x7a53500" />
+    </children>
+  </item>
+  <item nodeId="node-0x7a53500">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">
+
+
+Do you know your U.S. Government History? You&apos;re on a school field trip to our nation&apos;s historical cities. You need to talk to the important people in history in which they will give you important documents to win the game!
+
+Government Tour
+An Interactive Fiction by Lindsay Palsgrove
+Release 1 / Serial number 141022 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+
+Independence Hall
+This is the centerpiece of Independence National Historical Park in Philadelphia, Pennsylvania. It is known primarily as the location where both the Declaration of Independence and the United States Constitution were debated and adopted. Also North is Philadelphia
+
+You can see wooden door, Phil, Barack Obama and Thomas Jefferson here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x118ac550" />
+    </children>
+  </item>
+  <item nodeId="node-0x118ac550">
+    <command xml:space="preserve">ask thomas about declaration</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x8ccb120" />
+    </children>
+  </item>
+  <item nodeId="node-0x8ccb120">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x114276f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x114276f0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+    <children>
+      <child nodeId="node-0x8cf5020" />
+    </children>
+  </item>
+  <item nodeId="node-0x8cf5020">
+    <command xml:space="preserve">x declaration</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b7900">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7970" />
+      <child nodeId="node-0x784cd30" />
+    </children>
+  </item>
+  <item nodeId="node-0x784cd30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x7845590" />
+    </children>
+  </item>
+  <item nodeId="node-0x7845590">
+    <command xml:space="preserve">unlock door with declaration of independence</command>
+    <result xml:space="preserve">You unlock wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x8cc64c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8cc64c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening wooden door)
+
+Philadelphia
+The largest city in the Commonwealth of Pennsylvania, the fifth-most-populous city in the United States, and the core of the sixth-largest metropolitan area in the country. White house is East .
+
+You can see wooden door, Black door, Bill of Rights, Caleb, George Bush and James Madison here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x784da90" />
+    </children>
+  </item>
+  <item nodeId="node-0x784da90">
+    <command xml:space="preserve">talk james</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x249590" />
+    </children>
+  </item>
+  <item nodeId="node-0x249590">
+    <command xml:space="preserve">talk to james</command>
+    <result xml:space="preserve">I am a American statesman, political theorist and the fourth President of the United States. I am hailed as the Father of the Constitution for drafting of the United States Constitution and author of the United States Bill of Rights. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x2dc810" />
+    </children>
+  </item>
+  <item nodeId="node-0x2dc810">
+    <command xml:space="preserve">ask james about bill rights</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x78590f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x78590f0">
+    <command xml:space="preserve">ask james about bill of rights</command>
+    <result xml:space="preserve">You want that? Okay here!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x8cb6e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x8cb6e40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Black door)
+
+White House
+The official residence and principal workplace of the President of the United States. It has been the residence of every U.S. president since John Adams in 1800.
+
+You can see Black door, Cabinet (closed), Ana and Bill Clinton here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x78ef140" />
+    </children>
+  </item>
+  <item nodeId="node-0x78ef140">
+    <command xml:space="preserve">x cabinet</command>
+    <result xml:space="preserve">You see nothing special about Cabinet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x7869440" />
+    </children>
+  </item>
+  <item nodeId="node-0x7869440">
+    <command xml:space="preserve">x ana</command>
+    <result xml:space="preserve">You don&apos;t really like her so lets not talk to her.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x7aa46d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7aa46d0">
+    <command xml:space="preserve">talk to ana</command>
+    <result xml:space="preserve">
+
+    *** This chick is crazy! She made a big scene in the White House and now you got kicked out! Sorry bro :l. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x784d200" />
+    </children>
+  </item>
+  <item nodeId="node-0x784d200">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">White House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x2e01d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2e01d0">
+    <command xml:space="preserve">x bill clinton</command>
+    <result xml:space="preserve">Wow he is still alive?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x8cc3520" />
+    </children>
+  </item>
+  <item nodeId="node-0x8cc3520">
+    <command xml:space="preserve">talk to bill clintion</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x7afb1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7afb1d0">
+    <command xml:space="preserve">talk to bill</command>
+    <result xml:space="preserve">(Bill of Rights)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x2460e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2460e0">
+    <command xml:space="preserve">talk to bill clinton</command>
+    <result xml:space="preserve">Damn this place looks so different! Its like a whole new place!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x8c71980" />
+    </children>
+  </item>
+  <item nodeId="node-0x8c71980">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open Cabinet, revealing Three Branches of Government.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x7884070" />
+    </children>
+  </item>
+  <item nodeId="node-0x7884070">
+    <command xml:space="preserve">take three branches of government</command>
+    <result xml:space="preserve">Taken.
+
+
+
+    *** What a inspiring historic trip! We learned so much about our country&apos;s government! SUPER FUN~! The End ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b7970">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b79e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b79e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7a50">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with Declaration of Independence)
+You unlock wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7ac0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening wooden door)
+
+Philadelphia Convention
+You can see wooden door and Bill of Rights here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b7340">
+    <command xml:space="preserve">talk to thomas about declaration of Independence</command>
+    <result xml:space="preserve">I only understood you as far as wanting to talk to Thomas Jefferson.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b73b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b73b0">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7420" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7420">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6e40">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with Declaration of Independence)
+You unlock wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6eb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening wooden door)
+
+Philadelphia
+The largest city in the Commonwealth of Pennsylvania, the fifth-most-populous city in the United States, and the core of the sixth-largest metropolitan area in the country. White house is East .
+
+You can see wooden door, Black door, Bill of Rights, Caleb, George Bush and James Madison here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b6f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b6f20">
+    <command xml:space="preserve">talk to james madison</command>
+    <result xml:space="preserve">I am a American statesman, political theorist and the fourth President of the United States. I am hailed as the Father of the Constitution for drafting of the United States Constitution and author of the United States Bill of Rights. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b76d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b76d0">
+    <command xml:space="preserve">ask james about bill of rights</command>
+    <result xml:space="preserve">You want that? Okay here!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7740" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7740">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Black door)
+
+White House
+You can see Black door, Cabinet (closed), Ana and Bill Clinton here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b77b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b77b0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open Cabinet, revealing Three Branches of Government.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7820" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7820">
+    <command xml:space="preserve">take three branches government</command>
+    <result xml:space="preserve">Taken.
+
+
+
+    *** What a inspiring historic trip! We learned so much about our country&apos;s government! SUPER FUN~! The End ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7890" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7890">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Three Branches of Government
+  Bill of Rights
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="174">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b7cf0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7d60">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock Wooden door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7dd0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b7490">
+    <command xml:space="preserve">talk to Thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence , and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b7500">
+    <command xml:space="preserve">talk to Thomas Jefferson</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7570" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7570">
+    <command xml:space="preserve">ask about Declaration of Independence</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b75e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b75e0">
+    <command xml:space="preserve">ask Thomas Jefferson about Declaration of Independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7650" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7650">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7e40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Philadelphia Convention
+You can see Wooden door and Bill of Rights here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7eb0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Independence Hall
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7f20">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Independence Hall
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b7f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b7f90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8000">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Independence Hall
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8070" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8070">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Independence Hall
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b80e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b80e0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Independence Hall
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8150" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8150">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b81c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b81c0">
+    <command xml:space="preserve">talk to thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8230" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8230">
+    <command xml:space="preserve">ask thomas about declaration</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b8380">
+    <command xml:space="preserve">talk thomas</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b83f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b83f0">
+    <command xml:space="preserve">talk to thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8460" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8460">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b84d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b84d0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8540" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8540">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b85b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b85b0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with Declaration of Independence)
+You unlock wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8620" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8620">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">(Declaration of Independence)
+It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8690" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8690">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8700" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8700">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Philadelphia Convention
+You can see wooden door and Bill of Rights here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+  </item>
+  <item nodeId="node-0x8c74e70">
+    <command xml:space="preserve">talk to Obama</command>
+    <result xml:space="preserve">I am the President of the United States! Why are you talking to me?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x8ccd020" />
+    </children>
+  </item>
+  <item nodeId="node-0x8ccd020">
+    <command xml:space="preserve">because i love you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x11830ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11830ed0">
+    <command xml:space="preserve">talk to Phil</command>
+    <result xml:space="preserve">What? I don&apos;t know anything about Independence Hall! What is happening? D:
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x8c82a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x8c82a00">
+    <command xml:space="preserve">talk to thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x78a4650" />
+    </children>
+  </item>
+  <item nodeId="node-0x78a4650">
+    <command xml:space="preserve">ask thomas about declaration</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x7a6bf40" />
+    </children>
+  </item>
+  <item nodeId="node-0x7a6bf40">
+    <command xml:space="preserve">ask thomas about declaration independence</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x8c88f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x8c88f70">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b8770">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8af0" />
+      <child nodeId="node-0x1b87e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b87e0">
+    <command xml:space="preserve">talk to thomas</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8850" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8850">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b88c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b88c0">
+    <command xml:space="preserve">ask thomas about declaration</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8930" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8930">
+    <command xml:space="preserve">ask thomas about declaration of independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b89a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b89a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8a10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8a80">
+    <command xml:space="preserve">unlock door with declaration of independence</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b8af0">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8b60">
+    <command xml:space="preserve">talk to Barack Obama</command>
+    <result xml:space="preserve">I am the President of the United States! Why are you talking to me?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8bd0">
+    <command xml:space="preserve">talk to Thomas Jefferson</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8c40">
+    <command xml:space="preserve">talk to Phil</command>
+    <result xml:space="preserve">What? I don&apos;t know anything about Independence Hall! What is happening? D:
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8cb0">
+    <command xml:space="preserve">idk</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8d20">
+    <command xml:space="preserve">open wooden door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8d90">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock wooden door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8e00">
+    <command xml:space="preserve">with declaration of independence</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8e70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8e70">
+    <command xml:space="preserve">talk to Thomas Jefferson</command>
+    <result xml:space="preserve">I am a American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8ee0">
+    <command xml:space="preserve">ask Thomas Jefferson about Declaration of Independence</command>
+    <result xml:space="preserve">Oh yes! You can have it! :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8f50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Declaration of Independence
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8fc0">
+    <command xml:space="preserve">unlock door with declaration of idependence</command>
+    <result xml:space="preserve">I only understood you as far as wanting to unlock wooden door with Declaration of Independence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9030" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9030">
+    <command xml:space="preserve">unlock door with declaration of independence</command>
+    <result xml:space="preserve">You unlock wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b90a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b90a0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9110" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9110">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Philadelphia Convention
+You can see wooden door, Black door, Bill of Rights, Caleb, George Bush and James Madison here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9180" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9180">
+    <command xml:space="preserve">talk to Caleb</command>
+    <result xml:space="preserve">Hi? Where am I?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b91f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b91f0">
+    <command xml:space="preserve">talk to George Bush</command>
+    <result xml:space="preserve">I am the former President of the United States! Im getting payed to be here. -__-
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9260" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9260">
+    <command xml:space="preserve">talk to James Madison</command>
+    <result xml:space="preserve">I am a American statesman, political theorist and the fourth President of the United States. I am hailed as the Father of the Constitution for drafting of the United States Constitution and author of the United States Bill of Rights. Are you looking for something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b92d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b92d0">
+    <command xml:space="preserve">talk to James Madison about Bill of Rights</command>
+    <result xml:space="preserve">I only understood you as far as wanting to talk to James Madison.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9340" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9340">
+    <command xml:space="preserve">talk to James Madison about Consitution</command>
+    <result xml:space="preserve">I only understood you as far as wanting to talk to James Madison.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b93b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b93b0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">Which do you mean, wooden door or Black door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9420" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9420">
+    <command xml:space="preserve">open black door</command>
+    <result xml:space="preserve">You open Black door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9490" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9490">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Independence Hall
+The centerpiece of Independence National Historical Park in Philadelphia, Pennsylvania. It is known primarily as the location where both the Declaration of Independence and the United States Constitution were debated and adopted.
+
+You can see wooden door, Phil, Barack Obama and Thomas Jefferson here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9500" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9500">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Philadelphia Convention
+You can see wooden door, Black door, Bill of Rights, Caleb, George Bush and James Madison here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9570" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9570">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b95e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b95e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Branches of Government
+You can see Black door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="120">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b9650">
+    <command xml:space="preserve">talk to Phill</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b96c0">
+    <command xml:space="preserve">talk to Phil</command>
+    <result xml:space="preserve">What? I don&apos;t know anything about Independence Hall! What is happening? D:
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9730" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9730">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+</Skein>
